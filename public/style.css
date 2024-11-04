@@ -15,11 +15,11 @@ main{
     /* display: flex;
     justify-content: center;
     align-items: center; */
-    background-color: red;
+    /* background-color: red; */
     margin: 0 auto;
 }
 .validation{
-    background-color: yellow;
+    /* background-color: yellow; */
     height: 15vh;
     width: 40%;
     margin: 0 auto;
@@ -47,11 +47,10 @@ main{
     gap:100px;
 }
 .navigation a{
-    color: gray;
     font-family: sans-serif;
     text-decoration: none;
 }
-.navigation a:nth-child(1){
+.active{
     border: 1px solid rgb(255, 161, 161);
     background-color: rgb(255, 161, 161);
     color: white;
